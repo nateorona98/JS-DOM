@@ -1,0 +1,90 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+    background-color: #f3f3f3;
+}
+
+/*navbar*/
+.navbar {
+    width: 100vw;
+}
+
+.navbar li, .navbar-brand {
+    cursor: pointer;
+}
+
+/*header image*/
+.masthead {
+    width: 100vw;
+    background: url(images/header-bg-img.jpg) no-repeat center center;
+    background-size: cover;
+    color: #f3f3f3;
+}
+
+/*boxes under header image*/
+.boxes-row {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.box {
+    background: url(images/box-dark-bg.jpg) no-repeat center center;
+    background-size: cover;
+    display: inline-flex;
+    align-items: center;
+    height: 50vh;
+    margin-top: 2rem;
+}
+
+.box2 {
+    background: url(images/box2-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.box3 {
+    background: url(images/box3-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.box-text {
+    color: white;
+    margin: 0 auto;
+}
+
+/*about section*/
+.about-container {
+    margin-top: 2rem;
+    height: auto;
+    background-color: #23395B;
+}
+
+.about-sub {
+    margin: 0 auto;
+    color: #f3f3f3;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/*contact paragraph*/
+.contact-container {
+    margin-top: 2rem;
+    height: auto;
+}
+
+.contact-sub {
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact-info-col {
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.contact-info-col a {
+    margin-left: 1rem;
+}
